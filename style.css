@@ -7,6 +7,7 @@ h1 {
     font-family: 'Fredoka One', cursive;
     color: #cc0000;
     background-color: #f4cccc;
+    font-size: 50px;
 }
 
 
@@ -17,18 +18,48 @@ h2 {
 
 
 p {
-    font-size: 18px;
+    font-size: 24px;
     font-family: 'Nunito', sans-serif;
     color: #cc0000;
 }
 
-/*
-.navbar {
+.navbar-brand {
     font-family: 'Fredoka One', cursive;
-    color:  #cc0000;
-}*/
+    color: #cc0000;
+    background-color: #f4cccc;
+}
 
+.navbar {
+    background-color: #f4cccc;
+}
 
+.nav-link {
+    font-family: 'Fredoka One', cursive;
+    color: #cc0000;
+    background-color: #f4cccc;
+}
+
+.bg-light {
+    background-color: #f4cccc;
+}
+
+.btn {
+    background-color: #f4cccc;
+    font-family: 'Fredoka One', cursive;
+    color: #cc0000;
+    border-color: #cc0000;
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+.btn:hover {
+    color: #fab647;
+    border-color: #fab647;
+}
+
+.nav-link:hover {
+    color: #fab647;
+}
 
 /**************************************************/
 /* // Medium devices (tablets, 768px and up) */
