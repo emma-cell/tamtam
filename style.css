@@ -39,6 +39,12 @@ p {
     background-color: #f4cccc;
 }
 
+.navbar-toggler-icon {
+    color: #cc0000;
+    font-family: 'Fredoka One', cursive;
+    border-color: #cc0000;
+}
+
 .bg-light {
     background-color: #f4cccc;
 }
@@ -61,20 +67,63 @@ p {
     color: #fab647;
 }
 
+.navbar-toggler:focus {
+    text-decoration: none;
+    color: #fab647;
+    border-color: #fab647;
+}
+
+.heart {
+    transform: scale(1.3);
+    animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+
+    }
+
+    70% {
+        transform: scale(1.3);
+
+    }
+
+    100% {
+        transform: scale(0.95);
+
+    }
+}
+
 /**************************************************/
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
-/*
-@media (min-width: 768px) {
-    body {
-     background-color: yellow;
-   }
+@media (max-width: 768px) {
+    h1 {
+        font-family: 'Fredoka One', cursive;
+        color: #cc0000;
+        background-color: #f4cccc;
+        font-size: 40px;
+    }
 
-   body::before {
-     content: "'md': lig el. over 768px. ";
-   }
+    p {
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        color: #cc0000;
+    }
+
+    .container-fluid {
+        margin: 0;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    body {
+        margin-bottom: 150px;
+    }
 }
-*/
 
 /* END "md-" 768px and up */
 
