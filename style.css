@@ -78,6 +78,7 @@ p {
     animation: pulse 1.3s infinite;
 }
 
+
 @keyframes pulse {
     0% {
         transform: scale(0.95);
@@ -104,12 +105,14 @@ p {
         color: #cc0000;
         background-color: #f4cccc;
         font-size: 40px;
+        width: 70%;
     }
 
     p {
         font-size: 20px;
         font-family: 'Nunito', sans-serif;
         color: #cc0000;
+        width: 80%;
     }
 
     .container-fluid {
@@ -123,6 +126,8 @@ p {
     body {
         margin-bottom: 150px;
     }
+
+
 }
 
 /* END "md-" 768px and up */
